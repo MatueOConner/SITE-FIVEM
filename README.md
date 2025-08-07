@@ -6,13 +6,11 @@
   <title>Matuê O'Conner Highlight</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
-
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
-
     body {
       font-family: 'Orbitron', sans-serif;
       min-height: 100vh;
@@ -24,7 +22,6 @@
         linear-gradient(135deg, #0f0f0f, #1a1a1a);
       background-blend-mode: overlay;
     }
-
     .bg-image {
       position: fixed;
       top: 0;
@@ -39,9 +36,7 @@
       filter: blur(1px) brightness(0.9);
       z-index: -2;
       animation: pulse 5s infinite;
-
     }
-
     .overlay-gradient {
       position: fixed;
       top: 0;
@@ -51,7 +46,6 @@
       background: linear-gradient(to bottom right, rgba(0, 247, 255, 0.05), rgba(0, 0, 0, 0.6));
       z-index: -1;
     }
-
     header {
       text-align: center;
       margin-bottom: 40px;
@@ -59,11 +53,9 @@
       color: #ff0000;
       text-shadow: 0 0 02px #ff0909, 0 0 20px #ff0000;
     }
-
     header h1 {
       font-size: 3rem;
     }
-
     .neon-box {
       background: rgba(250, 0, 0, 0.089);
       border: 2px solid #ff0000;
@@ -79,12 +71,10 @@
       justify-content: center;
       text-align: center;
     }
-
     .neon-box p {
       font-size: 2rem;
       line-height: 3;
     }
-
     @keyframes pulse {
       0%, 100% {
         box-shadow: 0 0 15px #ff000033, 0 0 30px #ff000022;
@@ -93,7 +83,6 @@
         box-shadow: 0 0 25px #ff000088, 0 0 50px #ff000055;
       }
     }
-
     @keyframes fadeInDown {
       from {
         opacity: 0;
@@ -104,7 +93,6 @@
         transform: translateY(0);
       }
     }
-
     .social-buttons {
   display: flex;
   justify-content: center;
@@ -112,7 +100,6 @@
   gap: 15px;
   margin-top: 20px;
 }
-
 .social-buttons a {
   padding: 10px 20px;
   border: 2px solid #ff0000;
@@ -126,24 +113,20 @@
   transition: all 0.3s ease;
   animation: pulse 5s infinite;
 }
-
 .social-buttons a:hover {
   background-color: #ff0000;
   color: #0f0f0f;
   box-shadow: 0 0 20px #ff0000, 0 0 40px #ff000088;
 }
-    
   </style>
 </head>
 <body>
   <!-- Imagem de fundo com efeitos -->
   <div class="bg-image"></div>
   <div class="overlay-gradient"></div>
-
   <header>
     <h1>FiveM Highlights</h1>
   </header>
-
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px;">
   <a href="HL 1.html" class="neon-box"><p>Highlight 01</p></a>
   <a href="HL 2.html" class="neon-box"><p>Highlight 02</p></a>
@@ -158,7 +141,6 @@
   <a href="HL 11.html" class="neon-box"><p>Highlight 11</p></a>
   <a href="HL 12.html" class="neon-box"><p>Highlight 12</p></a>
 </div>
-
 <div class="social-buttons">
   <a href="https://www.instagram.com/kayke_stu/" target="_blank">Instagram
   <a href="https://www.youtube.com/@Kayke_Stuhlert/featured" target="_blank">YouTube
@@ -167,4 +149,3 @@
   <a href="https://www.tiktok.com/@kayke_stuhlert" target="_blank">TikTok
 </div>
 </body>
-
